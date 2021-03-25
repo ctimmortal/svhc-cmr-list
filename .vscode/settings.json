@@ -1,0 +1,10 @@
+{
+  "git.ignoreLimitWarning": true,
+  "restructuredtext.languageServer.disabled": true,
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "eslint.nodePath": ".yarn/sdks",
+  "stylelint.stylelintPath": ".yarn/sdks/stylelint/lib/index.js"
+}

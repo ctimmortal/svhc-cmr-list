@@ -69,24 +69,6 @@ module.exports = {
     require( '@babel/plugin-proposal-optional-chaining' ).default,
     require( '@babel/plugin-proposal-nullish-coalescing-operator' ).default,
     require( '@babel/plugin-transform-react-constant-elements' ).default,
-    [
-      'babel-plugin-import',
-      {
-        libraryName: '@material-ui/core',
-        libraryDirectory: 'esm',
-        camel2DashComponentName: false,
-      },
-      'core',
-    ],
-    [
-      'babel-plugin-import',
-      {
-        libraryName: '@material-ui/icons',
-        libraryDirectory: 'esm',
-        camel2DashComponentName: false,
-      },
-      'icons',
-    ],
   ].filter( Boolean ),
 
   overrides: [

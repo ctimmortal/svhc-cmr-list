@@ -1,5 +1,5 @@
 !.eslintrc.js
-**/docs/
-**/build/
-**/node_modules/
-**/public/
+docs/
+build/
+node_modules/
+public/
